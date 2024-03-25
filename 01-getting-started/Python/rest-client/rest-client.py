@@ -57,7 +57,7 @@ def GetLanguage(text):
         # If the call was successful, get the response
         if response.status == 200:
 
-            # Display the JSON response in full (just so we can see it)
+            # Display the JSON response in full (just so we can see it) 
             results = json.loads(data)
             print(json.dumps(results, indent=2))
 
